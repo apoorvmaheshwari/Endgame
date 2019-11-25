@@ -5,7 +5,7 @@ import {AdviewComponent} from './adview/adview.component';
 
 
 const routes: Routes = [{
-  path: '.',pathMatch: 'full', component: HomeComponent},
+  path: '',pathMatch: 'full', component: HomeComponent},
   { path: 'add', component: AdviewComponent }
 ];
 
